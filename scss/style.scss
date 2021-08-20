@@ -208,13 +208,15 @@ body {
 
     & > img {
         width: 100%;
+        min-height: 200px;
+        max-height: 600px;
     }
 
     .btn-dlt {
         display: none;
         position: absolute;
         border: none;
-        background: none;
+        background: url("../img/delete.svg");
         width: 32px;
         height: 32px;
         top: -10px;

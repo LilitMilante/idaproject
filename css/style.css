@@ -227,13 +227,15 @@ body {
 
 .item__product > img {
   width: 100%;
+  min-height: 200px;
+  max-height: 600px;
 }
 
 .item__product .btn-dlt {
   display: none;
   position: absolute;
   border: none;
-  background: none;
+  background: url("../img/delete.svg");
   width: 32px;
   height: 32px;
   top: -10px;

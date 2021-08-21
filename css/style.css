@@ -12,6 +12,12 @@ body {
   background: #E5E5E5;
 }
 
+@media (max-width: 570px) {
+  body {
+    padding: 0 8px;
+  }
+}
+
 .container {
   display: -ms-grid;
   display: grid;
@@ -110,6 +116,12 @@ body {
   display: -ms-grid;
   display: grid;
   padding: 24px;
+}
+
+@media (max-width: 570px) {
+  .form {
+    position: static;
+  }
 }
 
 .form .add-product {

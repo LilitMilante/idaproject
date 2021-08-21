@@ -97,6 +97,9 @@ body {
 }
 
 .form {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 24px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;

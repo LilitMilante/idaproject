@@ -22,10 +22,8 @@ body {
 
 }
 
-
 // кнопка с выподающим меню
 
-  
   .dropdown {
     position: relative;
     display: inline-block;
@@ -65,8 +63,6 @@ body {
     .show {display: block;}
 }
 
-  
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -92,6 +88,8 @@ body {
 }
 
 .form {
+    position: sticky;
+    top: 24px;
     height: min-content;
     background: #FFFEFB;
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
@@ -118,9 +116,6 @@ body {
     }
     
 }
-
-
-
 
 .form-group {
     display: grid;
@@ -184,18 +179,10 @@ body {
     }
 }
 
-
-
-
-
-
 .product__items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(323px, 1fr));
-    gap: 16px;
-    
-    
-    
+    gap: 16px;  
 }
 
 .item__product {
@@ -233,7 +220,7 @@ body {
         }
 
      .product__description {
-    padding: 0 16px 24px 16px;
+         padding: 0 16px 24px 16px;
 
         
         & > h3 {

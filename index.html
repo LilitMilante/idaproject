@@ -14,11 +14,11 @@
         <div class="header">
             <h1>Добавление товара</h1>
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">По умолчанию<img src="img/arrow.svg" alt=""></button>
-                <div id="myDropdown" class="dropdown__content">
-                  <button class="dropbtn" href="#">По возрастанию цены</button>
-                  <button class="dropbtn" href="#">По убываню цены</button>
-                  <button class="dropbtn" href="#">По умолчанию</button>
+                <button id="btndropdown" class="dropbtn">По наименованию<img src="img/arrow.svg" alt=""></button>
+                <div id="dropdown-content" class="dropdown__content">
+                  <button class="dropbtn" id="sortPriceAsc">По возрастанию цены</button>
+                  <button class="dropbtn" id="sortPriceDesc">По убываню цены</button>
+                  <button class="dropbtn" id="sortTitleAsc">По наименованию</button>
                 </div>
               </div>
         </div>
@@ -59,9 +59,8 @@
         </div>
     </div>
 
-    <script src="js/index.js"></script>
-    <script src="js/validate.js"></script>
-    <script src="js/state.js"></script>
+    <script src="index.js"></script>
+
 </body>
 
 </html>

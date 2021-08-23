@@ -226,11 +226,15 @@ function sortByPrice(arr, typeSort = 'asc') {
 function sortByPriceAscHandler() {
   sortByPrice(productState);
 
+  btndropdown.innerHTML = 'По возрастанию цены';
+
   render();
 }
 
 function sortByPriceDescHandler() {
   sortByPrice(productState, 'desc');
+
+  btndropdown.innerHTML = 'По убываню цены';
 
   render();
 }
@@ -251,6 +255,8 @@ function sortByTitle(arr) {
 
 function sortByTitleAscHandler() {
   sortByTitle(productState);
+
+  btndropdown.innerHTML = 'По наименованию';
 
   render();
 }
